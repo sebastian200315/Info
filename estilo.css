@@ -577,8 +577,9 @@ footer p {
         position: static;
         width: 100%;
         height: auto;
-        padding: 20px;
+        padding: 90px 20px 20px; /* Añadir padding-top para evitar que el header fijo tape el contenido */
         margin-bottom: 20px;
+        text-align: center;
     }
 
     .right-panel {
@@ -587,7 +588,8 @@ footer p {
     }
 
     .profile-pic {
-        width: 120px;
-        height: 120px;
+        width: 140px;
+        height: 140px;
+        margin: 0 auto 20px;
     }
 }
