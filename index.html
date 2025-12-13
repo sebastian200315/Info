@@ -34,56 +34,48 @@
 </header>
 
 <!-- =========================================================
-     PANEL IZQUIERDO
+     ASIDE - PERFIL
 ========================================================= -->
-<div class="left-panel">
+<aside class="left-panel">
 
     <div class="profile-pic">
-        <img src="foto/fondo blanco.jpg" alt="Perfil">
+        <img src="foto/perfil.jpg" alt="Perfil">
     </div>
 
-    <h2 class="text-center">Contacto</h2>
+    <h2 class="text-center"><i class="bi bi-person"></i> Contacto</h2>
     <p><strong>Nombre:</strong> Jimy Sebastian Cuyago Quilcimba</p>
-<p>
-    <strong>Email:</strong><br>
-    <a href="mailto:mvstrsebastian23@gmail.com">mvstrsebastian23@gmail.com</a><br>
-    <a href="mailto:jimy.cuyago824@ist17dejulio.edu.ec">jimy.cuyago824@ist17dejulio.edu.ec</a>
-</p>
-    <p><strong>Teléfono:</strong> +593 997933742</p>
+    <p><strong>Correo electrónico:</strong> <a href="mailto:mvstrsebastian23@gmail.com">mvstrsebastian23@gmail.com</a></p>
 
-    <h2>Redes</h2>
+    <p><strong>Teléfono:</strong> <a href="tel:+593997933742">+593 997933742</a></p>
 
-    <a class="btn btn-outline-primary w-100 mb-2" 
-       href="https://www.linkedin.com/in/jimy-sebastian-cuyago-quilcimba-708b69324"
-       target="_blank">
-       <i class="bi bi-linkedin"></i> LinkedIn
-    </a>
+    <h2><i class="bi bi-share"></i> Redes</h2>
+    <div class="social-buttons">
+        <div class="social-row">
+            <a class="btn btn-outline-primary btn-sm" title="LinkedIn"
+               href="https://www.linkedin.com/in/jimy-sebastian-cuyago-quilcimba-708b69324"
+               target="_blank">
+               <i class="bi bi-linkedin"></i> LinkedIn
+            </a>
 
-    <a class="btn btn-outline-success w-100 mb-2" href="https://wa.me/593997933742" 
-   target="_blank">
-        <i class="bi bi-whatsapp"></i> WhatsApp
-    </a>
+            <a class="btn btn-outline-success btn-sm" title="WhatsApp" href="https://wa.me/593997933742" 
+           target="_blank">
+                <i class="bi bi-whatsapp"></i> WhatsApp
+            </a>
+        </div>
+        <div class="social-row">
+            <a class="btn btn-outline-info btn-sm" title="Facebook" href="https://www.facebook.com/livemvstrsebastian"
+            target="_blank">
+                <i class="bi bi-facebook"></i> Facebook
+            </a>
 
-    <a class="btn btn-outline-info w-100 mb-2" href="https://www.facebook.com/livemvstrsebastian"
-    target="_blank">
-        <i class="bi bi-facebook"></i> Facebook
-    </a>
+            <a class="btn btn-outline-secondary btn-sm" title="Telegram" href="https://t.me/+593997933742" 
+           target="_blank">
+                <i class="bi bi-telegram"></i> Telegram
+            </a>
+        </div>
+    </div>
 
-    <a class="btn btn-outline-secondary w-100 mb-2" href="https://t.me/+593997933742" 
-   target="_blank">
-        <i class="bi bi-telegram"></i> Telegram
-    </a>
-
-    <h2>Perfil</h2>
-    <p>
-        Desarrollador de software con experiencia en levantamiento de información, desarrollo de sistemas
-        y creación de soluciones web y móviles. Destaco por mis habilidades de comunicación, atención al 
-        cliente y capacidad para asumir responsabilidades. Cuento con conocimientos sólidos en programación,
-        bases de datos, frameworks modernos y administración de servidores. Busco aportar valor en proyectos
-        tecnológicos mientras continúo creciendo profesionalmente.
-    </p>
-
-</div>
+</aside>
 
 <!-- =========================================================
      PANEL DERECHO
@@ -92,8 +84,8 @@
 
     <!-- Resumen -->
     <div class="section" id="resumen">
-        <h2>Resumen</h2>
-        <p>
+        <h2><i class="bi bi-file-text"></i> Resumen</h2>
+        <p class="lead">
             Profesional con experiencia, excelentes habilidades de comunicación y atención al cliente, 
             además de sólidos conocimientos en software y programación. Capaz de asumir 
             responsabilidades y tomar decisiones de manera efectiva, con el objetivo de crecer 
@@ -104,145 +96,171 @@
     <!-- Experiencia -->
     <div class="section" id="experiencia">
         <h2>Experiencia</h2>
-        <hr class="linea">
-        <div class="item">
-            <h3>Levantamiento de información</h3>
-            <strong> - GAD Imantag</strong>
-            <p> <strong>Ecuador-Imbabura-Cotacachi-Imantag </strong></p>
-            <p>
-                Levantamiento y subida de información
-                sobre las actividades desarrolladas por el
-                GAD Imantag.
-            </p>
-            <p><strong> Marzo de 2024 - Abril de 2024</strong></p>
+        <div class="experience-list">
+            <div class="experience-item">
+                <div class="experience-icon">
+                    <i class="bi bi-briefcase"></i>
+                </div>
+                <div class="experience-content">
+                    <h5>Levantamiento de información</h5>
+                    <h6 class="text-muted">GAD Imantag</h6>
+                    <p class="location">Ecuador-Imbabura-Cotacachi-Imantag</p>
+                    <p>Levantamiento y subida de información sobre las actividades desarrolladas por el GAD Imantag.</p>
+                    <small class="date">Marzo de 2024 - Abril de 2024</small>
+                </div>
+            </div>
+            <div class="experience-item">
+                <div class="experience-icon">
+                    <i class="bi bi-code-slash"></i>
+                </div>
+                <div class="experience-content">
+                    <h5>Desarrollador De Software (Sistema Web)</h5>
+                    <h6 class="text-muted">MotosBike</h6>
+                    <p class="location">Ecuador-Imbabura-Ibarra-Urcuqui</p>
+                    <p>Desarrollo de Sistema de Inventario y Nota de Venta.</p>
+                    <small class="date">Febrero de 2025 - Julio de 2025</small>
+                </div>
+            </div>
         </div>
-
-        <hr class="linea">
-
-        <div class="item">
-            <h3>Desarrollador De Software <strong>(Sistema Web)</strong></h3>
-            <strong> - MotosBike</strong>
-            <p> <strong>Ecuador-Imbabura-Ibarra-Urcuqui </strong></p>
-            <p>
-                Desarrollo de Sistema de Inventario y Nota de Venta.
-            </p>
-            <p><strong>Febrero de 2025 - Julio de 2025</strong></p>
-        </div>
-        <hr class="linea">
-
     </div>
 
     <!-- Habilidades -->
     <div class="section" id="habilidades">
         <h2>Habilidades</h2>
 
-        <div class="skills logos">
-
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
-                <span>HTML5</span>
+        <div class="skills-section">
+            <h3>Lenguajes de Programación</h3>
+            <div class="skills logos">
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+                    <span>HTML5</span>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+                    <span>CSS3</span>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg">
+                    <span>PHP</span>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
+                    <span>Java</span>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg">
+                    <span>Kotlin</span>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+                    <span>Python</span>
+                </div>
             </div>
+        </div>
 
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
-                <span>CSS3</span>
+        <div class="skills-section">
+            <h3>Frameworks y Librerías</h3>
+            <div class="skills logos">
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg">
+                    <span>Bootstrap</span>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+                    <span>React</span>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg">
+                    <span>Flutter</span>
+                </div>
+                <div class="skill">
+                    <img src="https://laravel.com/img/logomark.min.svg">
+                    <span>Laravel</span>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg">
+                    <span>WordPress</span>
+                </div>
             </div>
+        </div>
 
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
-                <span>JavaScript</span>
+        <div class="skills-section">
+            <h3>Bases de Datos</h3>
+            <div class="skills logos">
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
+                    <span>MySQL</span>
+                </div>
             </div>
+        </div>
 
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg">
-                <span>Bootstrap</span>
+        <div class="skills-section">
+            <h3>Herramientas y Otros</h3>
+            <div class="skills logos">
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg">
+                    <span>Linux</span>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg">
+                    <span>Figma</span>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
+                    <span>GitHub</span>
+                </div>
             </div>
-
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg">
-                <span>PHP</span>
-            </div>
-
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
-                <span>MySQL</span>
-            </div>
-
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
-                <span>Java</span>
-            </div>
-
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg">
-                <span>Kotlin</span>
-            </div>
-
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
-                <span>Python</span>
-            </div>
-
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
-                <span>React</span>
-            </div>
-
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg">
-                <span>Flutter</span>
-            </div>
-
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg">
-                <span>Linux</span>
-            </div>
-
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg">
-                <span>Figma</span>
-            </div>
-
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
-                <span>GitHub</span>
-            </div>
-
         </div>
     </div>
 <div class="section" id="proyectos">
   <h2>Proyectos</h2>
 
-<div class="card mb-4 shadow-sm" style="border-radius: 14px; overflow: hidden;">
-
-    <img src="foto/inicio-inventario.png" class="card-img-top" alt="Proyecto">
-
-    <div class="card-body">
-        <h5 class="card-title">Sistema de Inventario y Nota de Venta</h5>
-
-        <p class="card-text">
-            Desarrollo completo del sistema para MotosBike, incluyendo gestión de inventario, ventas y reportes.
-        </p>
-
-        <!-- Botón que abre el modal -->
-        <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modalProyecto1">
-            Ver Proyecto
+  <div class="project-item">
+    <div class="project-image">
+      <img src="foto/inicio-inventario.png" alt="Proyecto" class="img-fluid rounded">
+    </div>
+    <div class="project-content">
+      <h4>Sistema de Inventario y Nota de Venta</h4>
+      <p>Desarrollo completo del sistema para MotosBike, incluyendo gestión de inventario, ventas y reportes.</p>
+      <div class="project-tech">
+        <span class="badge bg-primary">HTML5</span>
+        <span class="badge bg-secondary">CSS3</span>
+        <span class="badge bg-success">JavaScript</span>
+        <span class="badge bg-info">PHP</span>
+        <span class="badge bg-warning">MySQL</span>
+        <span class="badge bg-dark">Bootstrap</span>
+      </div>
+      <div class="project-links mt-3">
+        <button class="btn btn-primary me-2" data-bs-toggle="modal" data-bs-target="#modalProyecto1">
+          <i class="bi bi-eye"></i> Ver Proyecto
         </button>
+        <a href="https://github.com/sebastian200315/Inventario-MotosBike.git" target="_blank" class="btn btn-outline-secondary">
+          <i class="bi bi-github"></i> GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </div>
 
-</div>
 
-
-</div>
-
-</div>
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+<footer>
+    <p>&copy; 2025 Jimy Sebastian Cuyago Quilcimba. Todos los derechos reservados.</p>
+</footer>
 
 
 <!-- =========================================================
      GSAP Animaciones
 ========================================================= -->
-
-
 <script>
 
     gsap.from("header", {
@@ -329,30 +347,12 @@
         </div>
 
 <!-- Descripción general -->
-<p class="mt-3 texto-small">
+<p class="mt-3">
   Sistema desarrollado para MotosBike con gestión de inventario, control de ventas, reportes
-  y administración completa del stock.
+  y administración completa del stock. Incluye funcionalidades avanzadas para el manejo eficiente
+  de productos y transacciones comerciales.
 </p>
 
-<!-- Lenguajes -->
-<div class="mt-4 texto-small">
-
-  <h4 class="fw-bold" style="font-size: 14px;">Lenguajes de Programación</h4>
-  <p>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" width="24" height="24"> HTML5,
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" width="24" height="24"> CSS3,
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" width="24" height="24"> JavaScript,
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" title="PHP" width="24" height="24"> PHP,
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" alt="Bootstrap" title="Bootstrap" width="24" height="24"> Bootstrap
-  </p>
-
-  <h4 class="fw-bold" style="font-size: 14px;">Base de Datos</h4>
-  <p>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" title="MySQL" width="24" height="24"> MySQL
-  </p>
-
-</div>
-
 
 
 
@@ -360,17 +360,6 @@
 
       </div>
 
-      <div class="modal-footer d-flex justify-content-between">
-
-        <!-- Botón GitHub -->
-        <a href="https://github.com/sebastian200315/Inventario-MotosBike.git" target="_blank" class="btn btn-primary">
-          <i class="bi bi-github"></i> Ver en GitHub
-        </a>
-
-        <!-- Botón cerrar -->
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-
-      </div>
 
     </div>
 
