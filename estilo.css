@@ -577,7 +577,7 @@ footer p {
         position: static;
         width: 100%;
         height: auto;
-        padding: 90px 20px 20px; /* Añadir padding-top para evitar que el header fijo tape el contenido */
+        padding: 70px 20px 20px; /* Padding-top ajustado a 70px para coincidir con la altura del header en móvil */
         margin-bottom: 20px;
         text-align: center;
     }
